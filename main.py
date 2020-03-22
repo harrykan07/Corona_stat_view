@@ -1,3 +1,4 @@
+#realtime data from official government website
 from plyer import notification
 import requests
 from bs4 import BeautifulSoup
