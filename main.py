@@ -21,7 +21,7 @@ if __name__ == "__main__":
     soup=BeautifulSoup(myHtmlData ,'html.parser') # parsing html
     #print(soup.prettify()) # to show pretty data
     mydata=""
-    for tr in soup.find_all('tbody')[1].find_all('tr'):
+    for tr in soup.find_all('tbody')[7].find_all('tr'):
         mydata += tr.get_text()
     
     mydata=mydata[1:]
